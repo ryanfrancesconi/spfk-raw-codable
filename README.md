@@ -1,5 +1,8 @@
 # RawCodable
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fryanfrancesconi%2Fspfk-raw-codable%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/ryanfrancesconi/spfk-raw-codable)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fryanfrancesconi%2Fspfk-raw-codable%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/ryanfrancesconi/spfk-raw-codable)
+
 A Swift macro that generates explicit `Codable` conformance for `RawRepresentable` enums.
 
 ## Motivation
@@ -65,7 +68,7 @@ Add the package to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ryanfrancesconi/spfk-raw-codable", from: "0.0.1"),
+    .package(url: "https://github.com/ryanfrancesconi/spfk-raw-codable", from: "1.0.0"),
 ]
 ```
 
